@@ -1,6 +1,6 @@
-# Flask Employee Management System
+# Employee Management System
 
-A full-stack Employee Management System built using Python Flask, MySQL, HTML, CSS, and JavaScript.
+A full-stack Employee Management System built using **Python Flask, MySQL, HTML, CSS, and JavaScript**. The application provides REST APIs for managing employee records and a simple web interface for performing CRUD operations.
 
 ## Features
 
@@ -8,36 +8,34 @@ A full-stack Employee Management System built using Python Flask, MySQL, HTML, C
 - View all employees
 - Edit employee details
 - Delete employees
-- Store employee data in MySQL
-- REST API integration using Flask
-- Frontend and backend integration using JavaScript Fetch API
-- Simple and user-friendly interface
+- MySQL database integration
+- REST API endpoints using Flask
+- Frontend-backend communication using Fetch API
+- Simple and responsive user interface
 
 ## Tech Stack
 
 ### Backend
 - Python
 - Flask
-- MySQL Connector
+- MySQL
+- MySQL Connector/Python
 
 ### Frontend
 - HTML5
 - CSS3
 - JavaScript
-
-### Database
-- MySQL
+- Fetch API
 
 ### Tools
-- Visual Studio Code
 - Git
 - GitHub
+- Visual Studio Code
 
 ## Project Structure
 
 ```text
-flask-employee-management-system/
-│
+flask/
 ├── backend/
 │   ├── app.py
 │   └── requirements.txt
